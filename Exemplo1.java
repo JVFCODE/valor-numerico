@@ -1,18 +1,22 @@
 package eu.com.br;
 
+import java.util.Scanner;
+
 public class Exemplo1 {
 	
 	public static void main(String args[]) {
+		// converter tipos primitivos
+		// (casting)
 		
-		Boolean status = true;
-		Boolean status = Boolean.TRUE;
+		double dd = 10.10;
+		short ss = 32;
 		
-		Character c = 'A';
+		Scanner scanner = new Scanner(System.in);
+		int z = (int) scanner.nextDouble();
+		
+		System.out.println(z);
 		
 		
-		Integer idadade = 11;
-		
-		Long cpf = 12343l;
 		
 	}
 
